@@ -156,7 +156,7 @@ public class BeyondCompareWithPreviousActionHandler extends BeyondCompareReposit
 			JobUtil.scheduleUserJob(
 					new BeyondCompareWithPreviousOperation(event, repository,
 							resources[0]),
-					UIText.CompareWithPreviousActionHandler_TaskGeneratingInput,
+					"Generating comparison with previous revision",
 					null);
 		return null;
 	}
